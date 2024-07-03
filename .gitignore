@@ -1,0 +1,45 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+firebase-debug.log
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Firebase
+.firebase/
+.firebaserc
+firebase.json
+.firestoreindexes.json
+.storage.rules
+
+# VS Code settings
+.vscode/
+
+# Mac OS specific
+Thumbs.db
+
+# Next.js (if applicable)
+.next/
+out/
+.next/cache
+
+# IntelliJ IDEA
+.idea/

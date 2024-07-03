@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+
+.movie-list {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px 0;
+    padding-left: 16px;
+    object-fit: contain;
+    width: 100%;
+    max-height: 200px;
+  }
+  
+  .movie-item {
+    max-width: 120px; 
+    height: auto; 
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    padding-right: 20px;
+  }
+  
+ 
+  .movie-item:hover {
+    transform: scale(1.05); 
+  }
+  .movie-img{
+    margin-right: 16px;
+    transition: transform 0.2s ease;
+    max-height: 200px;
+    
+  }
+
+  .movie-video{
+    max-height:200px;
+    padding-right: 20px;
+    transition: transform 0.2s ease;
+  }
+
+  .movie-video:hover {
+    transform: scale(1.05); 
+  }
+  
+  
+  .movie-bar{
+    padding-left: 16px;
+  }
+  
+  .movie-list::-webkit-scrollbar{
+    display: none;
+  }

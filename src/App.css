@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+
+body {
+  overflow-x: hidden; 
+  background-color: #111; 
+ 
+  color: white;
+  font-family: 'AR One Sans', sans-serif;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+
+
+
